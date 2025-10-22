@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
@@ -6,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/icon";
 
 const Index = () => {
-  const [activeTab, setActiveTab] = useState("profile");
 
   const poems = [
     {
@@ -90,7 +88,7 @@ const Index = () => {
           </div>
 
           <div className="lg:col-span-3">
-            <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
+            <Tabs defaultValue="profile" className="w-full">
               <Card className="mb-4">
                 <TabsList className="w-full justify-start bg-transparent border-b rounded-none h-auto p-0">
                   <TabsTrigger 
