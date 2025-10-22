@@ -33,11 +33,18 @@ const Index = () => {
 
   const friends = [
     { name: "Александр Блок", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/fbc0f877-01b9-49c2-b241-a3d972c02216.jpg" },
-    { name: "Николай Клюев", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/fbc0f877-01b9-49c2-b241-a3d972c02216.jpg" },
-    { name: "Владимир Маяковский", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/fbc0f877-01b9-49c2-b241-a3d972c02216.jpg" },
-    { name: "Андрей Белый", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/fbc0f877-01b9-49c2-b241-a3d972c02216.jpg" },
-    { name: "Борис Пастернак", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/fbc0f877-01b9-49c2-b241-a3d972c02216.jpg" },
-    { name: "Анна Ахматова", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/fbc0f877-01b9-49c2-b241-a3d972c02216.jpg" }
+    { name: "Владимир Маяковский", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/1ffbd455-0e4a-4921-aec7-34799c560adf.jpg" },
+    { name: "Анна Ахматова", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/a71d7846-5e4c-4d2c-ad15-c99851a4bc23.jpg" },
+    { name: "Николай Клюев", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/645a2b7d-fe68-4e1b-9b06-5bd5c64e41f6.jpg" },
+    { name: "Андрей Белый", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/deba8e08-960b-4f37-8e1a-58c1a16bfe56.jpg" },
+    { name: "Борис Пастернак", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/27afffc9-732b-43bf-ba97-3ba8fdbed93f.jpg" },
+    { name: "Марина Цветаева", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/e311a7b1-c812-4e1b-a803-d94285866381.jpg" },
+    { name: "Максим Горький", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/be790607-b08e-4b5b-9829-32cb870a481b.jpg" },
+    { name: "Осип Мандельштам", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/a854b2b2-7d1a-48eb-8b57-73b89b252dd1.jpg" },
+    { name: "Велимир Хлебников", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/e38beae0-a55a-49e1-8e5c-bf121cc1b2f4.jpg" },
+    { name: "Айседора Дункан", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/2d914cc2-32c8-49eb-b89a-028fcf11528c.jpg" },
+    { name: "Константин Бальмонт", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/b0c6472c-2046-4d9b-9d51-bc9096bf18e3.jpg" },
+    { name: "Валерий Брюсов", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/f508ce4b-5114-4a0d-802e-7e93b5fbf385.jpg" }
   ];
 
   return (
