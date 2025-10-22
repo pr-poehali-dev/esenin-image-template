@@ -31,6 +31,15 @@ const Index = () => {
     "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/5cc1e910-72d1-4997-88d1-e4ba528aa062.jpg"
   ];
 
+  const friends = [
+    { name: "Александр Блок", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/fbc0f877-01b9-49c2-b241-a3d972c02216.jpg" },
+    { name: "Николай Клюев", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/fbc0f877-01b9-49c2-b241-a3d972c02216.jpg" },
+    { name: "Владимир Маяковский", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/fbc0f877-01b9-49c2-b241-a3d972c02216.jpg" },
+    { name: "Андрей Белый", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/fbc0f877-01b9-49c2-b241-a3d972c02216.jpg" },
+    { name: "Борис Пастернак", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/fbc0f877-01b9-49c2-b241-a3d972c02216.jpg" },
+    { name: "Анна Ахматова", avatar: "https://cdn.poehali.dev/projects/d1d29e24-49d7-468c-92dc-46031f3c941d/files/fbc0f877-01b9-49c2-b241-a3d972c02216.jpg" }
+  ];
+
   return (
     <div className="min-h-screen bg-background">
       <header className="bg-primary text-primary-foreground shadow-md sticky top-0 z-50">
@@ -278,8 +287,14 @@ const Index = () => {
                         Друзья
                       </h3>
                       <div className="grid grid-cols-3 gap-2">
-                        {[1, 2, 3, 4, 5, 6].map((i) => (
-                          <div key={i} className="aspect-square bg-muted rounded-md"></div>
+                        {friends.map((friend, i) => (
+                          <div key={i} className="aspect-square bg-muted rounded-md overflow-hidden cursor-pointer hover:opacity-80 transition-opacity">
+                            <img 
+                              src={friend.avatar} 
+                              alt={friend.name}
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
                         ))}
                       </div>
                       <button className="text-sm text-primary hover:underline mt-3 w-full text-left">
